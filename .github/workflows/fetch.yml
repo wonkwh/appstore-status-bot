@@ -4,7 +4,7 @@ on:
  push:
  pull_request:
  schedule:
-     - cron: "*/10 * * * *"
+     - cron: "*/30 * * * *"
 
 jobs:
   build:
@@ -36,5 +36,5 @@ jobs:
           commit-message: 'Store Appstore Info'
           force-add: 'true'
           files: store.db
-          name: Kwanghyun.won
+          name: kwanghyun.won
           email: wonwkh@gmail.com
